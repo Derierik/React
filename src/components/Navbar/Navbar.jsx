@@ -1,21 +1,22 @@
 import React from 'react'
-import CartWidget from '../CartWidget/CartWidget'
+import { CartWidget } from '../CartWidget/CartWidget'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
     <header>
-        <h1>Equipamiento de protección personal</h1>
+        <h4>EPP Online</h4>
 
         <nav>
             <ul>
                 <li>Cascos</li>
+                <li>Zapatos</li>
                 <li>Overall</li>
-                <li>Zapatos de seguridad</li>
             </ul>
         </nav>
+        
 
         <CartWidget/>
-
     </header>
   )
 }
